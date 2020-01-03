@@ -1,44 +1,62 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>Calculator making</title>
-        <link rel = "stylesheet" type = "text/css" href = "cal1.css" />
+<body>
+<head >
+          <title>
+                calculator making
+            </title>
     </head>
-    <body>
-        <div id='calc-contain'>
+<div class="container">
+<form name="calculator">
+
   
-          <form name="calculator">
-            
-            <input type="text" name="answer" />
-            <br>
-            
-            <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
-            <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
-            <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
-            <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
-            <br/>
-            
-            <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
-            <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
-            <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
-            <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
-            </br>
-          
-            <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
-            <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
-            <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
-            <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
-            <br>
-        
-            <input type="button" value=" c " onclick="calculator.answer.value = ''" />
-            <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
-            <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
-            <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
-            <br>
-  
+           <div class="display">                                                                                          
+                       <input type="text" placeholder="0" name="text" size="18">
+            </div>
     
-          <form>
+    
+         <div class="buttons">
+              <div class="row">
+        
+             <input type="button" value="1" onclick="calculator.text.value += '1'">     
+             <input type="button" value="2" onclick="calculator.text.value += '2'">    
+             <input type="button" value="3" onclick="calculator.text.value += '3'">  
+             <input type="button" value="+" onclick="calculator.text.value += ' + '">  
+                 
+                 </div>
          
-        <div>
-    <body>
-<html/>
+              <div class="row">
+        
+             <input type="button" value="4" onclick="calculator.text.value += '4'">   
+             <input type="button" value="5" onclick="calculator.text.value += '5'">   
+             <input type="button" value="6" onclick="calculator.text.value += '6'">  
+             <input type="button" value="-" onclick="calculator.text.value += ' - '"> 
+             </div>
+        
+
+         
+              <div class="row">
+        
+             <input type="button" value="7" onclick="calculator.text.value += '7'">  
+             <input type="button" value="8" onclick="calculator.text.value += '8'"> 
+             <input type="button" value="9" onclick="calculator.text.value += '9'"> 
+             <input type="button" value="*" onclick="calculator.text.value += ' * '">
+
+              </div>   
+        
+   
+         
+              <div class="row">
+             
+            <input type="button" value="c" onclick="calculator.text.value = ''"> 
+             <input type="button" value="0" onclick="calculator.text.value += '0'"> 
+             <input type="button" value="=" onclick="calculator.text.value = eval(calculator.text.value)"> 
+             <input type="button" value="/" onclick="calculator.text.value += ' / '"> 
+
+       
+       </div>
+       </div>
+   
+</form>
+</div>
+</body>
+</html>
