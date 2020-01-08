@@ -1,5 +1,5 @@
 body, html {
-    background: #ECEDEF;
+    
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: black;
+    background: #260033;
     border-radius: 14px;
 
     }
@@ -21,24 +21,29 @@ body, html {
  
 }
 .buttons {
-    padding: 20px 20px 0 20px;
+  background-color: #260033;
+  border: none;
+  color: white;
+  padding: 20 20 20 20;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 .row  {
     width: 280px;
     float: center;
 }
 input[type=button] {
-    width: 60px;
-    height: 60px;
-    float: left;
-    margin: 5px;
-    background: lightgray;
-    font-size: 30px;
-    line-height: 30px;
-    border-radius: 50%;
-    font-weight: 700;
-    color: #5E5858;
-    cursor: pointer;
+  background-color: #260033;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+ 
     
 }
 input[type=text] {
@@ -48,7 +53,7 @@ input[type=text] {
     padding: 0;
    
     border: none;
-    background: none;
+    background:none;
     color: #ffffff;
     text-align: right;
     font-weight: 500;
